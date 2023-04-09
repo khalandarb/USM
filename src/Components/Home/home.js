@@ -29,7 +29,6 @@ const Home = () => {
   </div>
 </section>
 <main id="main">
-  {/* ======= About Section ======= */}
   <section id="about" className="about">
     <div className="container" data-aos="fade-up">
       <div className="row gx-0">
@@ -53,9 +52,8 @@ const Home = () => {
         </div>
       </div>
     </div>
-  </section>{/* End About Section */}
-  {/* ======= Values Section ======= */}
-  <section id="values" className="values">
+  </section>
+  {/* <section id="values" className="values">
     <div className="container" data-aos="fade-up">
       <header className="section-header">
         <h2>Our Values</h2>
@@ -85,8 +83,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  </section>{/* End Values Section */}
-  {/* ======= Counts Section ======= */}
+  </section>
   <section id="counts" className="counts">
     <div className="container" data-aos="fade-up">
       <div className="row gy-4">
@@ -128,185 +125,13 @@ const Home = () => {
         </div>
       </div>
     </div>
-  </section>{/* End Counts Section */}
-  {/* ======= Features Section ======= */}
-  <section id="features" className="features">
-    <div className="container" data-aos="fade-up">
-      <header className="section-header">
-        <h2>Features</h2>
-        <p>Laboriosam et omnis fuga quis dolor direda fara</p>
-      </header>
-      <div className="row">
-        <div className="col-lg-6">
-          <img src="../../assets/img/features.png" className="img-fluid" alt />
-        </div>
-        <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
-          <div className="row align-self-center gy-4">
-            <div className="col-md-6" data-aos="zoom-out" data-aos-delay={200}>
-              <div className="feature-box d-flex align-items-center">
-                <i className="bi bi-check" />
-                <h3>Eos aspernatur rem</h3>
-              </div>
-            </div>
-            <div className="col-md-6" data-aos="zoom-out" data-aos-delay={300}>
-              <div className="feature-box d-flex align-items-center">
-                <i className="bi bi-check" />
-                <h3>Facilis neque ipsa</h3>
-              </div>
-            </div>
-            <div className="col-md-6" data-aos="zoom-out" data-aos-delay={400}>
-              <div className="feature-box d-flex align-items-center">
-                <i className="bi bi-check" />
-                <h3>Volup amet voluptas</h3>
-              </div>
-            </div>
-            <div className="col-md-6" data-aos="zoom-out" data-aos-delay={500}>
-              <div className="feature-box d-flex align-items-center">
-                <i className="bi bi-check" />
-                <h3>Rerum omnis sint</h3>
-              </div>
-            </div>
-            <div className="col-md-6" data-aos="zoom-out" data-aos-delay={600}>
-              <div className="feature-box d-flex align-items-center">
-                <i className="bi bi-check" />
-                <h3>Alias possimus</h3>
-              </div>
-            </div>
-            <div className="col-md-6" data-aos="zoom-out" data-aos-delay={700}>
-              <div className="feature-box d-flex align-items-center">
-                <i className="bi bi-check" />
-                <h3>Repellendus mollitia</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> {/* / row */}
-      {/* Feature Tabs */}
-      <div className="row feture-tabs" data-aos="fade-up">
-        <div className="col-lg-6">
-          <h3>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
-          {/* Tabs */}
-          <ul className="nav nav-pills mb-3">
-            <li>
-              <a className="nav-link active" data-bs-toggle="pill" href="#tab1">Saepe fuga</a>
-            </li>
-            <li>
-              <a className="nav-link" data-bs-toggle="pill" href="#tab2">Voluptates</a>
-            </li>
-            <li>
-              <a className="nav-link" data-bs-toggle="pill" href="#tab3">Corrupti</a>
-            </li>
-          </ul>{/* End Tabs */}
-          {/* Tab Content */}
-          <div className="tab-content">
-            <div className="tab-pane fade show active" id="tab1">
-              <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-              <div className="d-flex align-items-center mb-2">
-                <i className="bi bi-check2" />
-                <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-              </div>
-              <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-              <div className="d-flex align-items-center mb-2">
-                <i className="bi bi-check2" />
-                <h4>Incidunt non veritatis illum ea ut nisi</h4>
-              </div>
-              <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-            </div>{/* End Tab 1 Content */}
-            <div className="tab-pane fade show" id="tab2">
-              <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-              <div className="d-flex align-items-center mb-2">
-                <i className="bi bi-check2" />
-                <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-              </div>
-              <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-              <div className="d-flex align-items-center mb-2">
-                <i className="bi bi-check2" />
-                <h4>Incidunt non veritatis illum ea ut nisi</h4>
-              </div>
-              <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-            </div>{/* End Tab 2 Content */}
-            <div className="tab-pane fade show" id="tab3">
-              <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-              <div className="d-flex align-items-center mb-2">
-                <i className="bi bi-check2" />
-                <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-              </div>
-              <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-              <div className="d-flex align-items-center mb-2">
-                <i className="bi bi-check2" />
-                <h4>Incidunt non veritatis illum ea ut nisi</h4>
-              </div>
-              <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-            </div>{/* End Tab 3 Content */}
-          </div>
-        </div>
-        <div className="col-lg-6">
-          <img src="../../assets/img/features-2.png" className="img-fluid" alt />
-        </div>
-      </div>{/* End Feature Tabs */}
-      {/* Feature Icons */}
-      <div className="row feature-icons" data-aos="fade-up">
-        <h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
-        <div className="row">
-          <div className="col-xl-4 text-center" data-aos="fade-right" data-aos-delay={100}>
-            <img src="../../assets/img/features-3.png" className="img-fluid p-4" alt />
-          </div>
-          <div className="col-xl-8 d-flex content">
-            <div className="row align-self-center gy-4">
-              <div className="col-md-6 icon-box" data-aos="fade-up">
-                <i className="ri-line-chart-line" />
-                <div>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-              </div>
-              <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay={100}>
-                <i className="ri-stack-line" />
-                <div>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                </div>
-              </div>
-              <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay={200}>
-                <i className="ri-brush-4-line" />
-                <div>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                </div>
-              </div>
-              <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay={300}>
-                <i className="ri-magic-line" />
-                <div>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                </div>
-              </div>
-              <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay={400}>
-                <i className="ri-command-line" />
-                <div>
-                  <h4>Molestiae dolor</h4>
-                  <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
-                </div>
-              </div>
-              <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay={500}>
-                <i className="ri-radar-line" />
-                <div>
-                  <h4>Explicabo consectetur</h4>
-                  <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>{/* End Feature Icons */}
-    </div>
-  </section>{/* End Features Section */}
+  </section> */}
 
 
 
 
-  {/* ======= Team Section ======= */}
-  <section id="team" className="team">
+  
+  {/* <section id="team" className="team">
     <div className="container" data-aos="fade-up">
       <header className="section-header">
         <h2>Team</h2>
@@ -387,10 +212,10 @@ const Home = () => {
         </div>
       </div>
     </div>
-  </section>{/* End Team Section */}
+  </section> */}
 
  
-  {/* ======= Contact Section ======= */}
+  
   <section id="contact" className="contact">
     <div className="container" data-aos="fade-up">
       <header className="section-header">
@@ -404,28 +229,21 @@ const Home = () => {
               <div className="info-box">
                 <i className="bi bi-geo-alt" />
                 <h3>Address</h3>
-                <p>A108 Adam Street,<br />New York, NY 535022</p>
+                <p>Sipcott IT park,<br /> Chennai, 630312</p>
               </div>
             </div>
             <div className="col-md-6">
               <div className="info-box">
                 <i className="bi bi-telephone" />
                 <h3>Call Us</h3>
-                <p>+1 5589 55488 55<br />+1 6678 254445 41</p>
+                <p>+91 89045 53172</p>
               </div>
             </div>
             <div className="col-md-6">
               <div className="info-box">
                 <i className="bi bi-envelope" />
                 <h3>Email Us</h3>
-                <p>info@example.com<br />contact@example.com</p>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="info-box">
-                <i className="bi bi-clock" />
-                <h3>Open Hours</h3>
-                <p>Monday - Friday<br />9:00AM - 05:00PM</p>
+                <p>info@usm.com<br />contact@usm.com</p>
               </div>
             </div>
           </div>
